@@ -1,2 +1,1 @@
-# coffeeShop
-A Responsive Coffee Shop Website Design Using HTML - CSS - JavaScript
+its an adaptive site of cofeeshop
