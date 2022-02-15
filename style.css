@@ -61,10 +61,9 @@ body{
     height: 6rem;
 }
 .header .navbar{
-    position: absolute;
-    top:100%; right: 0;
-    background: #fff;
-    width: 30rem;
+    margin: 0 1rem;
+    font-size: 1.6rem;
+    color: #fff;
 }
 .header .navbar a{
     margin: 0 1rem;
@@ -177,7 +176,7 @@ body{
     }
 }
 
-@media (max-width:991px){
+@media (max-width:768px){
     #menu-btn{
         display: inline-block;
     }
@@ -190,7 +189,7 @@ body{
         height: calc(100vh - 9.5rem);
     }
     .header .navbar.active{
-        right: 0;
+        right:0;
     }
     .header .navbar a{
         color:var(--black);
@@ -199,8 +198,15 @@ body{
         padding: .5rem;
         font-size: 2rem;
     }
-    .header .search-form.navbar.active{
+    .header .search-form{
         width: 90%;
         right: 2rem;
     }
+
+}
+@media (max-width:450px){
+    html{
+        font-size: 50%;
+    }
+
 }
