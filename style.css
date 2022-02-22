@@ -180,7 +180,9 @@ body{
     #menu-btn{
         display: inline-block;
     }
-
+    
+    
+    }
     .header .navbar{
         position: absolute;
         top: 100%; right: -100%;
@@ -202,11 +204,17 @@ body{
         width: 90%;
         right: 2rem;
     }
-
+    
 }
 @media (max-width:450px){
     html{
         font-size: 50%;
     }
-
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(./img/home-img.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
