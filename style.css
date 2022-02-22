@@ -205,11 +205,13 @@ body{
         right: 2rem;
     }
     
-}
+
+
 @media (max-width:450px){
     html{
         font-size: 50%;
     }
+}
 .home{
     min-height: 100vh;
     display: flex;
